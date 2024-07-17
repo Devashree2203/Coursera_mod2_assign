@@ -23,7 +23,10 @@
       width:100%;
     }
 
-   
+   section>h2 {
+     float:right;
+     background-color:white;
+   }
     @media(min-width:1200px) {
       .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
@@ -195,9 +198,9 @@
   <body>
     <h1>Menu of the day!</h1>
      <div class="row">
-      <div class = "col-lg-4  col-md-6  col-xs-12"><p>checkout our new pizza varities</p></div>
-      <div class = "col-lg-4  col-md-6  col-xs-12"><p>checkout our new pasta varities</p></div>
-      <div class = "col-lg-4  col-md-12  col-xs-12"><p>checkout our new burger varities</p></div>
+      <div class = "col-lg-4  col-md-6  col-xs-12"><section class="pizza"><h2>PIZZA</h2><p>checkout our new pizza varities</p></section></div>
+      <div class = "col-lg-4  col-md-6  col-xs-12"><section class="pasta"><h2>PASTA</h2><p>checkout our new pasta varities</p></section></div>
+      <div class = "col-lg-4  col-md-12  col-xs-12"><section class="burger"><h2>BURGER</h2><p>checkout our new burger varities</p></section></div>
      </div>
   </body>
 </html>
